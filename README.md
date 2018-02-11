@@ -51,4 +51,7 @@ Get props by path (xpath syntax) (for example 'app.port')
 ### variant
 Set new variant or change existed variant value
 
+### remove
+Remove variant
+
 © Alexander Pokhodyun (Karbunkul) 2018
