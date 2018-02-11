@@ -1,0 +1,13 @@
+{
+  "name": "cascade-props",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon $NODE_DEBUG_OPTION app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alexander Pokhodyun <karbunkul@yourtask.ru> (https://emerap.com)",
+  "license": "MIT"
+}
