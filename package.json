@@ -1,11 +1,29 @@
 {
   "name": "cascade-props",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Helper for merging props use different variants",
   "main": "index.js",
   "scripts": {
     "start": "nodemon $NODE_DEBUG_OPTION app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha **/*.spec.js",
+    "test-watch": "mocha --watch **/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karbunkul/cascade-props.git"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  },
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "standard": {
+    "env": [
+      "mocha"
+    ]
   },
   "keywords": [],
   "author": "Alexander Pokhodyun <karbunkul@yourtask.ru> (https://emerap.com)",
