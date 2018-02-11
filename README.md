@@ -1,5 +1,8 @@
 # Cascade Props
 
+[![Build Status](https://travis-ci.org/karbunkul/cascade-props.svg?branch=master)](https://travis-ci.org/karbunkul/cascade-props)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Synopsis](#synopsis)
@@ -12,6 +15,8 @@
 
 ## Synopsis
 Helper for merging props use different variants
+
+[![NPM](https://nodei.co/npm/cascade-props.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/cascade-props/)
 
 ## How to use
 
